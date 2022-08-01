@@ -13,3 +13,9 @@ span{
 span:hover{
     color: rgb(194, 194, 194);
 }
+
+@media only screen and (min-width: 1921px){
+    nav{
+        font-size: 2vh;
+    }
+}

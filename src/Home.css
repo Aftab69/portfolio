@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 .homepageContainer{
     background: rebeccapurple;
     box-sizing: border-box;
@@ -8,34 +10,85 @@
 }
 .imageContainerBox{
     box-sizing: border-box;
-    width: 50%;
-    height: 90vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .imageContainer{
-    border: 1px solid red;
+    box-sizing: border-box;
     padding: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .imageContainer>img{
-    width: 100%;
+    width: 80%;
     border-radius: 50%;
 }
 .textContainerBox{
     box-sizing: border-box;
-    border: 1px solid green;
-    width: 50%;
-    height: 90vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .textContainer{
+    box-sizing: border-box;
+    padding: 5%;
     background: white;
-    border-radius: 5%;
-    width: 80%;
+    margin: 10%;
+    border-radius: 10%;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    font-size: 1.6vh;
+}
+
+@media only screen and (max-width: 480px) {
+    .homepageContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .imageContainerBox{
+        height: 45vh;
+    }
+    .imageContainer>img{
+        width: auto;
+        height: 35vh;
+    }
+    .textContainerBox{
+        height: 45vh;
+    }
+    .textContainer{
+        height: 35vh;
+    }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 912px){
+    .homepageContainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .imageContainerBox{
+        height: 45vh;
+    }
+    .imageContainer>img{
+        width: auto;
+        height: 35vh;
+    }
+    .textContainerBox{
+        height: 45vh;
+    }
+    .textContainer{
+        height: 35vh;
+    }
+}
+
+@media only screen and (min-width: 1921px){
+    .imageContainer>img{
+        width: 25vw;
+    }
 }
