@@ -12,7 +12,7 @@ const Home = () => {
           <h1>AFTAB HUSSAIN</h1>
           <h3>&amp;</h3>
           <h3>I specialise in</h3>
-          <h1>WEB DEVELOPMENT</h1>
+          <div className='textElement1'><h1>WEB DEVELOPMENT</h1></div>
         </div>  
       </div>
       <div className='imageContainerBox'>
