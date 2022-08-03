@@ -9,7 +9,7 @@
     font-family: 'Josefin Sans', sans-serif;
     font-size: 4vh;
 }
-.elementsContainer{
+.elementsContainerProjectsPage{
     box-sizing: border-box;
     background: rgba(0, 0, 0, 0.13);
     border-radius: 2% 2% 0 0;
@@ -27,7 +27,7 @@
     .projectsContainer{
         font-size: 3vh;
     }
-    .elementsContainer{
+    .elementsContainerProjectsPage{
         border-radius: 0;
     }
 }
@@ -36,7 +36,7 @@
     .projectsContainer{
         font-size: 2vh;
     }
-    .elementsContainer{
+    .elementsContainerProjectsPage{
         border-radius: 0;
     }
 }
