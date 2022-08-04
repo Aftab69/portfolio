@@ -19,7 +19,7 @@ const Skills = () => {
                 </div>
                 <div className='individualElement'>
                     <div className='individualHeading'>
-                        <p>Front-End</p>
+                        <p>Front-end</p>
                     </div>
                     <div className='containerItems'>
                         <p>HTML/CSS</p>
@@ -31,7 +31,7 @@ const Skills = () => {
                 </div>
                 <div className='individualElement'>
                     <div className='individualHeading'>
-                        <p>Back-End</p>
+                        <p>Back-end</p>
                     </div>
                     <div className='containerItems'>
                          <p>Node</p>
