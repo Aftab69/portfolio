@@ -1,72 +1,70 @@
-.contactpageContainer{
+*{
     box-sizing: border-box;
-    background: url("./Images/contactpageBackground.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Josefin Sans', sans-serif;
 }
 .contactpageHeading{
-    box-sizing: border-box;
     width: 100%;
-    height: 10%;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 5vh;
+    font-size: 2.5rem;
     font-weight: 600;
 }
-.formContainerBox{
-    box-sizing: border-box;
+.contactpageFooterElements{
     width: 100%;
-    height: 80%;
+    height: 10vh;
+}
+.contactpageContainer{
+    background: url("./Images/contactpageBackground.jpg");
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.contactformContainer{
+    width: 100%;
+    min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .formContainer{
-    box-sizing: border-box;
-    border-radius: 5%;
-    border: 3px solid black;
-    box-shadow:  10px 10px 10px #000000;
-    background-color: rgba(239, 241, 79, 0.884);
-    width: 25%;
-    height: 75%;
+    border: 1px solid black;
+    margin: 5%;
+    width: 400px;
+    height: 600px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    background-color: rgba(239, 241, 79, 0.884);
 }
 .formContainer>input{
-    width: 75%;
-    height: 10%;
-    margin: 5% 0;
-    font-size: 2.5vh;
+    width: 80%;
+    height: 7%;
+    font-size: 1rem;
     font-family: 'Josefin Sans', sans-serif;
 }
 .formContainer>input::placeholder{
-    font-size: 2vh;
-    font-family: 'Josefin Sans', sans-serif;
-}
-.formContainer>textarea::placeholder{
-    font-size: 2vh;
     font-family: 'Josefin Sans', sans-serif;
 }
 .formContainer>textarea{
-    font-size: 2vh;
+    width: 80%;
+    height: 21%;
+    font-size: 1rem;
     font-family: 'Josefin Sans', sans-serif;
-    width: 75%;
-    height: 20%;
-    margin: 5% 0;
+}
+.formContainer>textarea::placeholder{
+    font-family: 'Josefin Sans', sans-serif;
 }
 .formContainer>button{
-    font-size: 2vh;
-    width: 75%;
-    height: 10%;
-    margin: 5% 0;
+    width: 40%;
+    height: 7%;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
     cursor: pointer;
     background: #0a6bff;
     color: white;
@@ -75,36 +73,42 @@
 .formContainer>button:hover{
     background: #005be4;
 }
-.infoContainer{
-    box-sizing: border-box;
-    width: 100%;
-    height: 10%;
+.formContainer>button{
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-@media only screen and (min-width:481px) and (max-width:1023px){
+@media only screen and (min-width:481px) and (max-width:768px){
     .formContainer{
-        width: 50%;
-        height: 70%;
+        transform: scale(0.9);
+    }
+    .contactpageHeading{
+        font-size: 2rem;
     }
 }
+
 @media only screen and (max-width:480px){
     .formContainer{
-        width: 70%;
-        height: 70%;
+        transform: scale(0.8);
     }
-    .formContainer>input{
-        font-size: 2vh;
+    .contactpageHeading{
+        font-size: 1.5rem;
     }
-    .formContainer>input::placeholder{
-        font-size: 1.5vh;
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2880px){
+    .formContainer{
+        transform: scale(1.5);
     }
-    .formContainer>textarea{
-        font-size: 1.5vh;
+    .contactpageHeading{
+        font-size: 3.75rem;
     }
-    .formContainer>textarea::placeholder{
-        font-size: 1.5vh;
+}
+
+@media only screen and (min-width: 2881px){
+    .formContainer{
+        transform: scale(2);
     }
-    .formContainer>button{
-        font-size: 1.5vh;
+    .contactpageHeading{
+        font-size: 5rem;
     }
 }
