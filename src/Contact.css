@@ -98,6 +98,7 @@
     height: 21%;
     font-size: 1rem;
     font-family: 'Josefin Sans', sans-serif;
+    resize: none;
 }
 .formContainer>textarea::placeholder{
     font-family: 'Josefin Sans', sans-serif;
