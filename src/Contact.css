@@ -12,7 +12,49 @@
 }
 .contactpageFooterElements{
     width: 100%;
-    height: 10vh;
+    min-height: 10vh;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footerEmail{
+    border-right: 1px solid white;
+    width: 33.33%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerEmail>p:first-child{
+    text-decoration: underline;
+}
+.footerAddress{
+    border-right: 1px solid white;
+    width: 33.33%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.footerAddress>p:first-child{
+    text-decoration: underline;
+}
+.footerNumber{
+    width: 33.33%;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerNumber>p:first-child{
+    text-decoration: underline;
 }
 .contactpageContainer{
     background: url("./Images/contactpageBackground.jpg");
@@ -84,6 +126,23 @@
     .contactpageHeading{
         font-size: 2rem;
     }
+    .contactpageFooterElements{
+        flex-direction: column;
+    }
+    .footerEmail{
+        width: 100%;
+        min-height: 3.33vh;
+        border-right: none;
+    }
+    .footerAddress{
+        width: 100%;
+        min-height: 3.33vh;
+        border-right: none;
+    }
+    .footerNumber{
+        width: 100%;
+        min-height: 3.33vh;
+    }
 }
 
 @media only screen and (max-width:480px){
@@ -92,6 +151,23 @@
     }
     .contactpageHeading{
         font-size: 1.5rem;
+    }
+    .contactpageFooterElements{
+        flex-direction: column;
+    }
+    .footerEmail{
+        width: 100%;
+        min-height: 3.33vh;
+        border-right: none;
+    }
+    .footerAddress{
+        width: 100%;
+        min-height: 3.33vh;
+        border-right: none;
+    }
+    .footerNumber{
+        width: 100%;
+        min-height: 3.33vh;
     }
 }
 
@@ -102,6 +178,9 @@
     .contactpageHeading{
         font-size: 3.75rem;
     }
+    .contactpageFooterElements{
+        font-size: 1.2rem;
+    }
 }
 
 @media only screen and (min-width: 2881px){
@@ -110,5 +189,8 @@
     }
     .contactpageHeading{
         font-size: 5rem;
+    }
+    .contactpageFooterElements{
+        font-size: 1.4rem;
     }
 }

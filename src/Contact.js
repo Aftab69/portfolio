@@ -34,6 +34,18 @@ function Contact() {
                </form>
            </div>
            <div className='contactpageFooterElements'>
+               <div className='footerEmail'>
+                    <p>Email:</p>
+                    <p>aftabhssn3@gmail.com</p>
+                </div>
+               <div className='footerAddress'>
+                    <p>Address:</p>
+                    <p>Six Mile, Guwahati, Assam, India</p>
+               </div>
+               <div className='footerNumber'>
+                    <p>Phone No:</p>
+                    <p>+917576081171</p>
+               </div>
            </div>
        </div>
       </>
