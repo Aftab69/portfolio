@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+.certificateCardContainer{
+    width: 380px;
+    height: 350px;
+    margin: 2%;
+    background: rgb(66, 60, 60);
+    border-radius: 5%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.certificateCardContainer>img{
+    width: 80%;
+}
+.certificateCardContainer>p{
+    width: 80%;
+    text-align: center;
+}

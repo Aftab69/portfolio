@@ -12,6 +12,7 @@ const Navbar = () => {
         <div>
             <HashLink style={navItemStyling} smooth to="#projects"><span>PROJECTS</span></HashLink>
             <HashLink style={navItemStyling} smooth to="#skills"><span>SKILLS</span></HashLink>
+            <HashLink style={navItemStyling} smooth to="#certificates"><span>CERTIFICATES</span></HashLink>
             <HashLink style={navItemStyling} smooth to="#contact"><span>CONTACT</span></HashLink>
         </div>
       </nav>

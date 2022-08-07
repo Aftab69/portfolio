@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+.certificatepageContainer{
+    background: rgb(249, 252, 205);
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.certificateHeading{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.certificateCarousel{
+    width: 80%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width:481px) and (max-width:768px){
+    .certificateHeading{
+        font-size: 1.75rem;
+    }
+    .certificateCarousel{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width:480px){
+    .certificateHeading{
+        font-size: 1.5rem;
+    }
+    .certificateCarousel{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2880px){
+    .certificateHeading{
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 2881px){
+    .certificateHeading{
+        font-size: 4rem;
+    }
+}

@@ -3,6 +3,7 @@ import Home from "./Home";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Contact from "./Contact";
+import Certificates from "./Certificates";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Home />
     <Projects />
     <Skills />
+    <Certificates />
     <Contact />
     </>
   );
