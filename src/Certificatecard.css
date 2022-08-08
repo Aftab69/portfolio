@@ -14,6 +14,11 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    transition: all 0.2s ease-in-out;
+}
+.certificateCardContainer:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
 }
 .certificateCardContainer>img{
     width: 80%;
@@ -58,6 +63,13 @@
     .popupContainer>button{
         transform: scale(2);
     }
+    .certificateCardContainer{
+        transition: all 0.2s ease-in-out;
+    }
+    .certificateCardContainer:hover{
+        transform: scale(1.035);
+        transition: all 0.2s ease-in-out;
+    }
 }
 
 @media only screen and (max-width:480px){
@@ -67,6 +79,13 @@
     }
     .popupContainer>button{
         transform: scale(1.5);
+    }
+    .certificateCardContainer{
+        transition: all 0.2s ease-in-out;
+    }
+    .certificateCardContainer:hover{
+        transform: scale(1.025);
+        transition: all 0.2s ease-in-out;
     }
 }
 

@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 .certificatepageContainer{
-    background: rgb(249, 252, 205);
+    background-image: url("./Images/4.jpg");
     width: 100%;
     min-height: 100vh;
     font-family: 'Josefin Sans', sans-serif;
