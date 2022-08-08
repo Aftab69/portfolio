@@ -31,7 +31,7 @@ const Certificates = () => {
                 <p>-: My freeCodeCamp Certificates :-</p>
             </div>
             <div className='certificateCarousel'>
-                <Carousel breakPoints={breakPoints}>
+                <Carousel enableAutoPlay autoPlaySpeed={8000} breakPoints={breakPoints}>
                     <Certificatecard cardImage={image1} cardData={"Responsive Web Design Certificate"} />
                     <Certificatecard cardImage={image2} cardData={"Javascript Algorithms and Data Structures Certificate"} />
                     <Certificatecard cardImage={image3} cardData={"Front End Libraries Certificate"} />
