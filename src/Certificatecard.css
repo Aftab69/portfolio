@@ -5,9 +5,11 @@
     width: 380px;
     height: 350px;
     margin: 2%;
-    background: rgb(66, 60, 60);
+    background: rgb(177, 172, 172);
     border-radius: 5%;
-    color: white;
+    border: 2px solid black;
+    color: black;
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -19,4 +21,77 @@
 .certificateCardContainer>p{
     width: 80%;
     text-align: center;
+}
+.popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.popupContainer{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.popupContainer>img{
+    width: 50vw;
+
+}
+.popupContainer>button{
+    background-color: rgb(226, 226, 226);
+    justify-self:end;
+    cursor: pointer;
+    transform: scale(2.5);
+    border-radius: 25%;
+    font-weight: 600;
+}
+
+@media only screen and (min-width:481px) and (max-width:768px){
+    .popupContainer>img{
+        width: 70vw;
+    
+    }
+    .popupContainer>button{
+        transform: scale(2);
+    }
+}
+
+@media only screen and (max-width:480px){
+    .popupContainer>img{
+        width: 90vw;
+    
+    }
+    .popupContainer>button{
+        transform: scale(1.5);
+    }
+}
+
+@media only screen and (min-width: 1921px) and (max-width: 2880px){
+    .popupContainer>img{
+        width: 50vw;
+    
+    }
+    .popupContainer>button{
+        transform: scale(3);
+    }
+    .certificateCardContainer{
+        font-size: 1.125rem;
+    }
+}
+
+@media only screen and (min-width: 2881px){
+    .popupContainer>img{
+        width: 50vw;
+        
+    }
+    .popupContainer>button{
+        transform: scale(3.5);
+    }
+    .certificateCardContainer{
+        font-size: 1.25rem ;
+    }
 }
