@@ -17,11 +17,11 @@ import image11 from "./Images/Legacy Full Stack Certificate.png";
 
 const Certificates = () => {
     const breakPoints = [
-        { width: 1, itemsToShow: 1},
-        { width: 500, itemsToShow: 1},
-        { width: 768, itemsToShow: 2},
-        { width: 1200, itemsToShow: 3},
-        { width: 1920, itemsToShow: 4}
+        { width: 1, itemsToShow: 1, itemsToScroll: 1},
+        { width: 500, itemsToShow: 1, itemsToScroll: 1},
+        { width: 768, itemsToShow: 2, itemsToScroll: 2},
+        { width: 1200, itemsToShow: 3, itemsToScroll: 3},
+        { width: 1920, itemsToShow: 4, itemsToScroll: 4}
     ];
 
   return (
