@@ -50,10 +50,18 @@
     .certificateHeading{
         font-size: 3rem;
     }
+    .certificateCarousel{
+        width: 70%;
+        transform: scale(1.25);
+    }
 }
 
 @media only screen and (min-width: 2881px){
     .certificateHeading{
         font-size: 4rem;
+    }
+    .certificateCarousel{
+        width: 60%;
+        transform: scale(1.5);
     }
 }
