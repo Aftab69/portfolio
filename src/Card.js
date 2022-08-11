@@ -9,8 +9,8 @@ const Card = (props) => {
          <img src={props.cardImage} alt={props.cardImage} />
          <p>{props.projectDescription}</p>
          <div className='cardButtons'>
-            <button>Code</button>
-            <button>App</button>
+            <button><a href={props.linkcode} target="_blank" rel="noreferrer">Code</a></button>
+            <button><a href={props.linkapp} target="_blank" rel="noreferrer">App</a></button>
          </div>
       </div>
     </>
