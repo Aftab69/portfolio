@@ -23,6 +23,9 @@
 .certificateCardContainer>img{
     width: 80%;
 }
+.certificateCardContainer>img:hover{
+    cursor: pointer;
+}
 .certificateCardContainer>p{
     width: 80%;
     text-align: center;
@@ -44,7 +47,6 @@
 }
 .popupContainer>img{
     width: 50vw;
-
 }
 .popupContainer>button{
     background-color: rgb(226, 226, 226);
