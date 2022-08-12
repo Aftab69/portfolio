@@ -3,6 +3,7 @@
 }
 .certificatepageContainer{
     background-image: url("./Images/certificatepageContainerBackground.jpg");
+    background-size: cover;
     width: 100%;
     min-height: 100vh;
     font-family: 'Josefin Sans', sans-serif;
