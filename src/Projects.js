@@ -20,7 +20,7 @@ const Projects = () => {
         <div className='elementsContainerProjectsPage'>
           <Card linkcode={link1code} linkapp={link1app} cardImage={image1} projectName="Movie Generator" projectDescription="An app that generates random movies, lists out the popular as well as the trending movies, along with the search movie feature." />
           <Card linkcode={link2code} linkapp={link2app} cardImage={image2} projectName="Portfolio" projectDescription="This website is being built out of HTML, CSS, Javascript, ReactJS and EmailJS." />
-          <Card linkcode={link3code} linkapp={link3app} cardImage={image3} projectName="Quotezapp" projectDescription="An app that generates random movies, lists out the popular as well as the trending movies, along with the search movie feature." />
+          <Card linkcode={link3code} linkapp={link3app} cardImage={image3} projectName="Quotezapp" projectDescription="An app involving authentication where one can customize their quotes and show it to the world" />
           <Card linkcode={link2code} linkapp={link2app} cardImage={image2} projectName="Portfolio" projectDescription="This website is being built out of HTML, CSS, Javascript, ReactJS and EmailJS." />
         </div>
       </div>
