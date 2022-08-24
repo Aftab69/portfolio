@@ -1,7 +1,7 @@
 .cardContainer{
     box-sizing: border-box;
     border: 3px solid black;
-    border-radius: 10%;
+    border-radius: 30px;
     width: 20%;
     min-height: 40%;
     margin: 5% 5%;
@@ -28,7 +28,7 @@
 .cardContainer>p{
     width: 80%;
     min-height: 10vh;
-    font-size: 1.5vh;
+    font-size: 1.2rem;
 }
 .cardButtons{
     box-sizing: border-box;
@@ -104,7 +104,7 @@ a{
     .cardContainer>p{
         width: 80%;
         height: 10vh;
-        font-size: 1.2vh;
+        font-size: 0.84rem;
     }
 }
 
@@ -136,6 +136,9 @@ a{
     .popupContainer>button{
         transform: scale(3);
     }
+    .cardContainer>p{
+        font-size: 1.8rem;
+    }
 }
 
 @media only screen and (min-width: 2881px){
@@ -145,5 +148,8 @@ a{
     }
     .popupContainer>button{
         transform: scale(3.5);
+    }
+    .cardContainer>p{
+        font-size: 2.4rem;
     }
 }
