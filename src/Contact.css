@@ -83,7 +83,7 @@
     justify-content: space-evenly;
     align-items: center;
     background-color: rgba(239, 241, 79, 0.884);
-    border-radius: 5%;
+    border-radius: 30px;
 }
 .formContainer>input{
     width: 80%;
