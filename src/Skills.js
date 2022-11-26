@@ -49,6 +49,7 @@ const Skills = () => {
                          <p>Heroku</p>
                          <p>Postman</p>
                          <p>Netlify</p>
+                         <p>Cyclic</p>
                     </div>
                 </div>
                 <div className='individualElement'>
@@ -57,6 +58,8 @@ const Skills = () => {
                     </div>
                     <div className='containerItems'>
                          <p>Responsive Design</p>
+                         <p>SEO Optimisation</p>
+                         <p>Context API</p>
                     </div>
                 </div>
           </div>
