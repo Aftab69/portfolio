@@ -18,7 +18,7 @@ const Projects = () => {
   const link4code = "https://github.com/Aftab69/portfolio";
   const link4app = "https://aftabhussain.netlify.app/";
   const link5code = "https://github.com/Aftab69/authentication-app";
-  const link5app = "https://quotezapp.herokuapp.com/";
+  const link5app = "https://quotezapp.cyclic.app/";
   const link6code = "https://github.com/Aftab69/hangman";
   const link6app = "https://thehangmanapp.netlify.app/";
 
